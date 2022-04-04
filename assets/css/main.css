@@ -80,8 +80,7 @@ input, select, textarea {
 
 	#brand {
 		position:relative;
-		right: 41%;
-		bottom: 260px;
+		
 		
 	}
 
@@ -159,7 +158,7 @@ input, select, textarea {
 	html {
 		background-color: #313a3d;
 		background-attachment: fixed,						fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/bg2.jpg");
 		background-position: top left,					center center;
 		background-repeat: repeat,						none;
 		background-size: auto,						cover;
