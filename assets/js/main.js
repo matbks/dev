@@ -32,10 +32,12 @@
 		if (browser.mobile) {
 
 			var $wrapper;
+			var $hideimg;
 
 			// Create wrapper.
 				$body.wrapInner('<div id="wrapper" />');
-				$wrapper = $('#wrapper');
+				$wrapper = $('#wrapper');		
+					
 
 				// Hack: iOS vh bug.
 					if (browser.os == 'ios')

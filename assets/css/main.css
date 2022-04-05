@@ -3095,11 +3095,22 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			#brand{
+				width: 300px;
+				height: 300px;
+			}
+			
+
 	}
 
 /* Medium */
 
 	@media screen and (max-width: 980px) {
+
+		#brand{
+			width: 300px;
+			height: 300px;
+		}
 
 		/* Main BG */
 
@@ -3110,7 +3121,7 @@ input, select, textarea {
 		/* Main */
 
 			.main .image.primary {
-				display: block;
+				display: none;
 				margin: 0 0 4em 0;
 			}
 
@@ -3156,6 +3167,11 @@ input, select, textarea {
 /* Small */
 
 	@media screen and (max-width: 736px) {
+
+		#brand{
+			width: 220px;
+			height: 220px;
+		}
 
 		/* Basic */
 
@@ -3215,6 +3231,23 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
+		#brand{
+			width: 120px;
+			height: 120px;
+			 
+		}	
+
+		.projectImages{
+			width: 350px;
+			height: 200px;
+		}
+
+		.menuImages{
+			width: 100px;
+			height: 100px;
+		}
+
+	
 		/* Basic */
 
 			html, body {
