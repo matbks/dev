@@ -6,6 +6,7 @@
 
 (function($) {
 
+
 	var	$window = $(window),
 		$body = $('body'),
 		$html = $('html');
@@ -24,6 +25,8 @@
 				$body.removeClass('is-preload');
 			}, 100);
 		});
+
+
 
 	// Touch mode.
 		if (browser.mobile) {
@@ -169,6 +172,10 @@
 					leave: function() { $bg.removeClass('active'); }
 				});
 
+				
+
 		});
+
+	
 
 })(jQuery);
