@@ -129,11 +129,11 @@ input, select, textarea {
 
 /* Caption text */
 .sliderText {
-  color: #f2f2f2;
+  color: #000000;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 3px;
   width: 100%;
   text-align: center;
 }
@@ -166,7 +166,7 @@ input, select, textarea {
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 2.5s;
+  animation-duration: 1.5s;
 
 }
 
@@ -3169,15 +3169,39 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		#brand{
-			width: 220px;
-			height: 220px;
+			width: 280px;
+			height: 280px;
 		}
 
-		/* Basic */
+		#menuText{
+			margin-top: 0.5em;
+			font-size: 1.7em;
+			font-style: italic;
+			font-style: bold;
+		}
 
-			h2 {
-				font-size: 1.35em;
+		#sliderText{
+			font-size: 1.3em;
+			text-align: center;
+		}
+
+		.projectImages{
+			width: 520px;
+			height: 350px;
+		}
+
+		.menuImages{
+			width: 180px;
+			height: 180px;
+		}
+
+		
+
+		/* Basic */
+			h1{
+				font-size: 10.35em;
 			}
+
 
 		/* Main */
 
@@ -3208,10 +3232,12 @@ input, select, textarea {
 				}
 
 					#header header h1 {
-						font-size: 2em;
+						margin-top: 1em;
+						font-size: 3em;
 					}
 
 					#header header p {
+						font-size: 2em;
 						margin-top: 1em;
 					}
 
