@@ -3425,8 +3425,8 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 
 		#brand{
-			width: 120px;
-			height: 120px;			 
+			width: 180px;
+			height: 180px;			 
 		}	
 
 		.projectImages{
