@@ -78,6 +78,55 @@ input, select, textarea {
 
 /* Basic */
 
+.buttond {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	background-color:#395cbb;
+	border-radius: 0.2em;
+	border: 0;
+	box-shadow: inset 0 0 0 2px #395cbb;
+	color: #ffffff !important;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 700;
+	height: 3em;
+	letter-spacing: 0.05em;
+	line-height: 3.15em;
+	padding: 0 2em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+	
+}
+
+
+			buttond:hover,
+			.buttond:hover {
+				background-color: #4766aa;
+			}
+
+			
+			buttond:active,
+			.buttond:active {
+				background-color: #8a2c85;
+			}
+
+.buttond.disabled,
+		.buttond:disabled {
+			background-color: #6f7577 !important;
+			box-shadow: none !important;
+			color: #fff !important;
+			cursor: default;
+			opacity: 0.25;
+		}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -2834,6 +2883,34 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+
+			.button {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		background-color: transparent;
+		border-radius: 0.2em;
+		border: 0;
+		box-shadow: inset 0 0 0 2px #dddddd;
+		color: #61686b !important;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 700;
+		height: 3em;
+		letter-spacing: 0.05em;
+		line-height: 3.15em;
+		padding: 0 2em;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
+
 /* Button */
 
 	input[type="submit"],
@@ -2850,7 +2927,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
-		border-radius: 0;
+		border-radius: 0.2em;
 		border: 0;
 		box-shadow: inset 0 0 0 2px #dddddd;
 		color: #61686b !important;
